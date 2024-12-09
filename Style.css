@@ -99,3 +99,36 @@ img {
 .im3{
     transform:rotate(-10deg)
 }
+.connect{
+    margin-top: 34%;
+    display:flex;
+    justify-content: space-between;
+    height: 70px;
+    width: 100%;
+}
+.tagline{
+    margin-top: 4px;
+    align-items:center;
+    margin-left: 1%;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 15px;
+    width: 20%;
+}
+.social{
+    margin-top: 4px ;
+    margin-right: 4%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-size: 50px;
+}
+.ri-facebook-fill{
+    padding: 4%;
+}
+.ri-instagram-line{
+    padding: 3%;
+}
+.ri-whatsapp-fill{
+    padding: 6%;
+}
