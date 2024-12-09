@@ -1,0 +1,101 @@
+.navbar {
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    /* background-color: aquamarine; */
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2px;
+}
+.menu h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+}
+.menu i{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 26px;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 2px;
+}
+.menu button{
+    padding: 0%;
+    background: transparent;
+    border: 12px;
+    border-radius: 12px;
+    border: none;
+}
+.menu button:hover{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header i{
+    background-color:#48cae4;
+    font-size: 32px ;
+    border: 1.1px solid black;
+    border-radius: 19px;
+}
+.header h1{
+    text-transform: uppercase;    
+}
+.access {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.access h3{
+    border: 1.5px solid black;
+    border-radius: 12px;
+    padding: 5px;
+}
+.sup{
+    background-color: #48cae4;      
+}
+.disp{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px;
+}
+img {
+    top: 0;
+    left: 38%;
+    position: absolute;
+    height: 550px;
+    width: 350px;
+    border-radius: 30px;
+    z-index: 10;
+}
+.disp h2{
+    top: 45%;
+    left: 10%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    position: absolute;
+    font-size: 200px;
+    z-index: 1;
+}
+.im1{
+    transform:rotate(-30deg)
+}
+.im2{
+    transform:rotate(-20deg)
+}
+.im3{
+    transform:rotate(-10deg)
+}
