@@ -1,3 +1,4 @@
+
 .navbar {
     /* width: 100%; */
     display: flex;
@@ -131,4 +132,81 @@ img {
 }
 .ri-whatsapp-fill{
     padding: 6%;
+}
+@media only screen and (max-width:450px) {
+    body{
+        /* background-color: aqua; */
+        height: 100vh;
+        margin: 0;
+    }
+    .navbar{
+        height: 6vh;
+        margin-left: 2.6%;
+    }
+    .header{
+        margin-left: 50px;
+    }
+    .header i{
+        /* background-color:#48cae4; */
+        font-size: 5vw ;
+        border: 1.1px solid black;
+        border-radius: 19px;
+    }
+    .header h1{
+        text-transform: uppercase;  
+        font-size: 5vw;  
+    }
+    .menu h3{
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: none;
+    }
+    .access {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        margin-right: 10px;
+    }
+    .access h3{
+        font-size: 2.6vw;
+        border: 1.1px solid black;
+        border-radius: 10px;
+        padding: 3px;
+    }
+    .disp{
+        width: 100vw;
+        height: 55vh;
+        /* background-color: red; */
+        margin: 40px 0 40px;        
+    }
+    img {
+        top: 40%;
+        left: 30%;
+        height: 30vh;
+        width: 38vw;
+        border-radius: 20px;
+        z-index: 10;
+    }
+    .disp h2{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        font-size: 14vw;
+        z-index: 1;
+        margin-left: -8vw;
+    }
+    .connect{
+        display:flex;
+        align-items: baseline;
+        justify-content: space-between;
+        width: 100%;
+        margin: 225px 0px 0px;
+    }
+    .tagline{
+        /* margin-top: 4px; */
+        margin-left: 2.6%;
+        font-size: 2.6vw;
+        width: 70%;
+    }
+    .social{
+        font-size: 3vh;
+    }
 }
