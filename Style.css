@@ -36,8 +36,8 @@
 }
 .menu button:hover{
     overflow: hidden;
-    background-color: black;
-    color: white;
+    background-color: #48cae4;
+    color: #000;
 }
 .header{
     display: flex;
@@ -160,6 +160,9 @@ img {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         display: none;
     }
+    .menu i{
+        font-size: 5vw;
+    }
     .access {
         display: flex;
         align-items: center;
@@ -175,7 +178,7 @@ img {
     }
     .disp{
         width: 100vw;
-        height: 55vh;
+        height: 50vh;
         /* background-color: red; */
         margin: 40px 0 40px;        
     }
@@ -203,10 +206,11 @@ img {
     .tagline{
         /* margin-top: 4px; */
         margin-left: 2.6%;
-        font-size: 2.6vw;
+        font-size: 3vw;
         width: 70%;
     }
     .social{
         font-size: 3vh;
+        margin-right: 0;
     }
 }
